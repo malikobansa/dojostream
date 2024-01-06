@@ -1,0 +1,67 @@
+.images{
+    width: 300px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list{
+    display: flex;
+    margin-top: -10px;
+}
+
+.list li{
+    margin-right: 50px;
+}
+
+.lists{
+    display: flex;
+    margin-top: 5px;
+}
+
+.btn{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dojos{
+    width: 600px;
+    height: 600px;
+}
+
+.para{
+    width: 500px;
+}
+
+.grids{
+    display: grid;
+    grid-template-rows: 400px 400px; 
+    grid-template-columns: 400px 400px; 
+    grid-gap: 100px;
+    margin-left: 200px;
+}
+
+.grid img{
+    width: 500px;
+    height: 500px;
+}
